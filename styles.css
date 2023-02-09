@@ -1,19 +1,22 @@
-* {
+*{
     font-family: sans-serif;
     border: medium dashed #117532;
     padding: 0.25em;
     margin: 0.25em;
   }
   
-  html {
+p {
     border: none;
   }
   
-  p {
-    border: none;
-  }
-  
-  span {
+span {
     border: medium dashed #b3a592;
     margin: 0.25em;
   }
+
+footer {
+    font-size: .75em;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
