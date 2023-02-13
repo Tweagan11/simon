@@ -1,18 +1,29 @@
 *{
     font-family: sans-serif;
-    border: medium dashed #117532;
+    border: none;
     padding: 0.25em;
     margin: 0.25em;
   }
-  
-p {
-    border: none;
+
+button:hover {
+    border: solid .01em rgb(0, 0, 0);
+  }
+
+
+main{
+    background: #c6c5c5;
+    border: solid .01em rgb(0, 0, 0);
+  }
+
+h1 {
+    border-bottom: thin black solid;
   }
   
-span {
-    border: medium dashed #b3a592;
-    margin: 0.25em;
-  }
+section {
+  background: #eeeeee;
+  padding: 0.25em;
+  margin-bottom: 0.5em;
+}
 
 footer {
     font-size: .75em;
