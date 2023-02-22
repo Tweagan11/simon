@@ -12,45 +12,66 @@
     </head>
     <body>
         <header>
-            <h1>Simon<sup>&reg;</sup></h1>
+            <div class="px-3 py-2 text-bg-secondary">
+              <div class="container-fluid">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                  <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="favicon.ico"></use></svg>
+                  </a>
+        
+                  <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <li>
+                      <a href="index.html" class="nav-link text-white">
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="favicon.ico"></use></svg>
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="play.html" class="nav-link text-white">
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#favicon.ico"></use></svg>
+                        Play
+                      </a>
+                    </li>
+                    <li>
+                      <a href="scores.html" class="nav-link text-white">
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#favicon.ico"></use></svg>
+                        Scores
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about.html" class="nav-link text-dark">
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="favicon.ico"></use></svg>
+                        About
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
 
-            <nav>
-                <menu>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="play.html">Play Now!</a></li>
-                    <li><a href="scores.html">Compare Scores!</a></li>
-                    <li><a href="about.html">Learn More!</a></li>
-                </menu>
-            </nav>
-            <hr />
-        </header>
-
-        <main>
-            <p>
+        <main class="container-fluid bg-success px-4 py-5 my-5 text-center">
+            <div>
+                <p class="lead mb-5 text-white">
                 There isn't much to say about the game <b>Simon</b>, other than it will suck
                 the life away from you! Be prepared to waste hours on end trying to beat your
                 high score, while you succumb to the monotony of it all! So is life! I'm fine!
-            </p>
+                </p>
 
-            <p>
+                <p class="text-white">
                 The name Simon is a registered trademark owned by Milton-Bradley. Our
                 use of the name and the game is for non-profit educational use only. No
                 part of this code or program should be used outside of that definition.
                 (I included this because it felt necessary)
-            </p>
+                </p>
+            </div>
         </main>
 
-        <footer>
-            <hr />
-            <span class="text-reset"> Author Name(s)</span>
-            <ul>
-                <li>Me</li>
-                <li>Myself</li>
-                <li>I</li>
-                <li>Itsa me, uh-Mario</li>
-            </ul>
-            <br />
-            <a href="https://github.com/Tweagan11/simon">Hub of the Git</a>
+        <footer class="bg-secondary text-white">
+            <div class="container-fluid">
+                <span class="text-reset"> Teagan Smith</span>
+                <a class="text-reset" href="https://github.com/Tweagan11/simon">Hub of the Git</a>
+            </div>
         </footer>
     </body>
 </html>
