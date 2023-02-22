@@ -1,9 +1,13 @@
 *{
     font-family: sans-serif;
-    border: none;
-    padding: 0.25em;
-    margin: 0.25em;
   }
+
+body {
+  background:rgb(94, 97, 99);
+  display:flex;
+  flex-direction:column;
+  min-width: 375px;
+}
 
 button:hover {
     border: solid .01em rgb(0, 0, 0);
@@ -11,23 +15,26 @@ button:hover {
 
 
 main{
-    background: #c6c5c5;
-    border: solid .01em rgb(0, 0, 0);
+    flex: 1 calc(100vh - 110px);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 
 h1 {
-    border-bottom: thin black solid;
+    border-bottom: thin white solid;
   }
   
 section {
-  background: #eeeeee;
   padding: 0.25em;
   margin-bottom: 0.5em;
 }
 
 footer {
-    font-size: .75em;
-    clear: both;
-    width: 100%;
-    text-align: center;
+    flex: 0 30px;
+}
+
+footer a{
+  float:right;
 }
