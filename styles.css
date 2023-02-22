@@ -20,10 +20,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-  }
-
-h1 {
-    border-bottom: thin white solid;
+    background-color:rgb(196, 161, 118);
   }
   
 section {
