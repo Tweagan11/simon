@@ -49,7 +49,7 @@
 
         document.querySelectorAll('.game-button').forEach((el, i) => {
             if (i < btnDescriptions.length) {
-                this.buttons.set(el.id, newButton(btnDescriptions[i], el));
+                this.buttons.set(el.id, new Button(btnDescriptions[i], el));
             }
         });
 
@@ -120,6 +120,12 @@
         }
     }
 
+    getRandomButton() {
+        let buttons = Array.from(this.buttons.values());
+        return buttons[Math.floor(Math.random() * this.buttons.size)];
+      }
+    
+
     saveScore(score) {
         const userName = this.getPlayerName();
         let scores = [];
@@ -167,6 +173,6 @@
     })
  }
 
- function loadSoudn(filename) {
+ function loadSound(filename) {
     return new Audio('assets/' + filename);
  }
