@@ -52,13 +52,14 @@ main{
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap:20px;
 }
 
 .btn-top-left {
   border-radius: 100% 0 0 0;
   margin: 15px 0 0 15px;
-  background-color: rgb(138, 43, 226);
-  border: thick solid rgba(87, 31, 140, 0.733);
+  background-color: rgb(138, 60, 226);
+  border: thick solid rgba(87, 31, 140, 0.3);
 }
 
 .btn-top-right {
@@ -128,4 +129,16 @@ footer {
 
 footer a{
   float:right;
+}
+
+@media (max-height: 600px) {
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  main {
+    flex: 1 100vh;
+  }
 }
