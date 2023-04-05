@@ -11,11 +11,6 @@ async function loadScores() {
         }
     }
 
-    const scoresText = localStorage.getItem('scores');
-    if (scoresText) {
-        scores = JSON.parse(scoresText);
-    }
-
    displayScores(scores);
 }
 

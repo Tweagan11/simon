@@ -1,6 +1,6 @@
 function displayPicture() {
 
-  const containerEl = document.querySelector('#picture');
+  const containerEl = document.querySelector("#picture");
 
   const width = containerEl.offsetWidth;
   const height = containerEl.offsetHeight;
@@ -13,7 +13,7 @@ function displayPicture() {
 
 function displayQuote(data) {
   
-  const containerEl = document.querySelector('#quote');
+  const containerEl = document.querySelector("#quote");
 
   const quoteEl = document.createElement('p');
   quoteEl.classList.add('quote');
