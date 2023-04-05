@@ -1,4 +1,4 @@
-function displayPicture() {
+function displayPicture(data) {
 
   const containerEl = document.querySelector("#picture");
 

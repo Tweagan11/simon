@@ -78,6 +78,24 @@ main{
   border: thick solid rgba(116, 78, 22, 0.733); */
 }
 
+#player-messages {
+  padding-top: 0.25em;
+  opacity: 0.7;
+}
+
+.event {
+  color: rgb(69, 69, 69);
+}
+
+.player-event {
+  color: rgb(165, 220, 235);
+}
+
+.system-event {
+  color: rgb(221, 148, 40);
+}
+
+
 .controls {
   position: absolute;
   border-radius: 50%;

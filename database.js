@@ -22,7 +22,7 @@ function getUser(email) {
 
 function getUserByToken(token) {
   return userCollection.findOne({ token: token });
-}
+} 
 
 async function createUser(email, password) {
   const passwordHash = await bcrypt.hash(password, 10);
