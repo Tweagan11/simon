@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "Learned much about CSS through Trial and Error. Push constantly and be sure to double check the different parameters for each different sizing category. Still processing different numbers and what requires what, but I am happy to be learning!",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "latest": "^0.2.0",
     "mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.2"
   }
 }
